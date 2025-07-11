@@ -1,6 +1,6 @@
 #!name= Netflix
 #!desc= Netflix
-#!arguments=netflix_ip=8.8.8.8
+#!arguments=netflix_ip
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list,DIRECT
