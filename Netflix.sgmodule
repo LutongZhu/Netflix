@@ -1,10 +1,13 @@
-#!name=🎬 Netflix 定向解析（自定义 IP）
-#!desc=将 Netflix 域名强制解析至你自定义的解锁 IP
-#!param=netflix_ip= @label=Netflix IP @input=string
+#!name= Netflix
+#!desc= Netflix
+#!arguments=netflix_ip=8.8.8.8
 
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list,DIRECT
 [Host]
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list = ${netflix_ip}
+
+
+
 
 
